@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+:root {
+    --primary-color: #FFFFFF;
+    --second-color: #FB5352;
+    --fonte: 'Roboto', sans-serif;
+    --hover: #F72798;
+}
+
+body {
+    color: var(--primary-color);
+    background-color: black;
+    font-family: var(--fonte);    
+}
+
+.cabecalho__lista {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.cabecalho__imagem {
+    padding: 0 2rem;
+}
+
+nav {
+    text-align: justify;
+}
+
+.link__nav {
+    margin: 2rem;
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.link__nav:hover {
+    color: var(--second-color);
+}
+
+.cabecalho__conta {
+    padding: 0 2rem;
+}
+
+.link__conta {
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 2px solid none;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.link__conta:hover {
+    background-color: var(--hover);
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div__home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__titulo-1{
+    letter-spacing:1rem;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.home__titulo-2{
+    letter-spacing:2rem;
+    padding: 0.5rem 0;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.home__titulo-3{
+    letter-spacing: 15px;
+    color: var(--second-color);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.foquete {
+    width: 10.3%;
+    top: 0;
+    position: absolute;
+    padding: 6rem 0 0;
+}
+
+.div__home-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.nuvens {
+    width: 100%;
+    padding: 25.2rem 5rem 0  ;
+
+}
+
