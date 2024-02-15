@@ -13,7 +13,7 @@
 
     <header class="cabecalho">
         <ul class="cabecalho__lista">
-            <li class="cabecalho__imagem"><img src="assents/Layer 2.png" alt=""></li>
+            <li class="cabecalho__imagem"><img class="logo__img" src="assents/Layer 2.png" alt=""></li>
             <li class="cabecalho__nav">
                 <nav class="nav">
                     <a class="link__nav" href="#">challanges</a>
@@ -23,23 +23,42 @@
                 </nav>
             </li>
             <li class="cabecalho__conta">
-                <a class="link__conta" href="#">Your Account</a>
+                <a class="link__conta" href="#" id="conta">Your Account</a>
             </li>
         </ul>
     </header>
 
     <main class="homepage">
-        <div class="div__home">
+
+        <div class="div__home" id="homepageContent">
             <h3 class="home__titulo-1">NASA</h3>
             <h1 class="home__titulo-2">TECHRISE</h1>
             <H2 class="home__titulo-3">STUDENTS CHALLANGES</H2>
-            <img class="foquete" src="assents/Group 1.png" alt="">
+            <img class="foquete" src="assents/Group 1.png" alt="" id="foquete">
             <div class="div__home-home">
                 <img class="nuvens" src="assents/Group 2.png" alt="">
                 <img class="nuvens" src="assents/Group 3.png" alt="">
             </div>
         </div>
+
+        <div class="page" id="loginForm"  style="display: none;">
+            <form method="POST" class="formLogin">
+                <h1>Login</h1>
+                <p>Digite os seus dados de acesso no campo abaixo.</p>
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+                <label for="password">Senha</label>
+                <input type="password" placeholder="Digite sua senha" />
+                <a href="/">Esqueci minha senha</a>
+                <input type="submit" value="Acessar" class="btn" />
+            </form>
+        </div>
+
+
+
     </main>
+
+    <script src="app/main.js"></script>
 
 </body>
 
